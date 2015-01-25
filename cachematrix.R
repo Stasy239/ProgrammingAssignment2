@@ -31,7 +31,7 @@ cacheSolve <- function(x, ...) {
     data <- x[get]
     m <- solve(data, ...)    #count inverse
     x[setinverse](m)
-    m                        #returns inverted natrix
+    m                        #returns inverted matrix
 
 
 }
